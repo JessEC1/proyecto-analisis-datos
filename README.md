@@ -1,25 +1,36 @@
 # Análisis Predictivo de California Housing
 ## **Objetivo del Proyecto**
-Desarrollar un modelo predictivo para analizar patrones en el dataset y evaluar variables relevantes que influyen en el resultado objetivo.
+Desarrollar un modelo de regresión para estimar el valor medio de viviendas en distritos de California utilizando variables socioeconómicas y geográficas, simulando un escenario de apoyo a decisiones en el sector inmobiliario.
 
 ## **Tecnologías utilizadas**
 - Python
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
-- Scikit-learn
 
-## **Proceso**
-- Limpieza de datos
-- Análisis Exploratorio (EDA)
-- Ingeniería de características
-- Modelado predictivo
-- Evaluación del modelo
+## **Desarrollo**
+- Carga del dataset desde sklearn.datasets.fetch_california_housing.
+- Análisis Exploratorio de Datos (EDA) para evaluar distribución, correlaciones y comportamiento de variables.
+- Identificación de multicolinealidad mediante matriz de correlación.
+- Escalado de variables numéricas para optimización del modelo.
+
+- Implementación de modelos de regresión:
+-- Linear Regression
+-- Random Forest Regressor
+
+- Evaluación del desempeño con:
+
+-- R² Score
+-- Mean Squared Error (MSE).
+-- Root Mean Squared Error (RMSE)
+
+- Comparación de desempeño entre modelos.
 
 ## **Resultados**
-- Variables con mayor correlación detectadas.
-- Modelo con precisión del XX%.
-- Visualización clara de patrones clave.
+- Random Forest mostró mejor desempeño predictivo frente a regresión lineal.
+- Identificación de variables con mayor impacto en el precio:
+-- MedInc (Ingreso medio)
+-- Latitude / Longitude
+-- AveRooms
+- El modelo permitió estimar valores inmobiliarios con margen de error controlado.
 
-## **Conclusión**
-El análisis permitió identificar factores determinantes en el comportamiento del dataset, demostrando la aplicación práctica de técnicas de análisis y modelado predictivo.
