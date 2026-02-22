@@ -1,6 +1,25 @@
-This directory includes a few sample datasets to get you started.
+# Análisis Predictivo de California Housing
+## **Objetivo del Proyecto**
+Desarrollar un modelo predictivo para analizar patrones en el dataset y evaluar variables relevantes que influyen en el resultado objetivo.
 
-*   `california_housing_data*.csv` ─ Base de datos extraida de scikit learn
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
-    https://scikit-learn.org/stable/api/sklearn.datasets.html
+## **Tecnologías utilizadas**
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Scikit-learn
 
+## **Proceso**
+- Limpieza de datos
+- Análisis Exploratorio (EDA)
+- Ingeniería de características
+- Modelado predictivo
+- Evaluación del modelo
+
+## **Resultados**
+- Variables con mayor correlación detectadas.
+- Modelo con precisión del XX%.
+- Visualización clara de patrones clave.
+
+## **Conclusión**
+El análisis permitió identificar factores determinantes en el comportamiento del dataset, demostrando la aplicación práctica de técnicas de análisis y modelado predictivo.
